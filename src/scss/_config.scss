@@ -27,6 +27,11 @@ html {
 @mixin transition-ease {
   transition: all 0.5s ease-in-out;
 }
+@mixin Flebo-parallel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @function set-test-color($color) {
   @if (lightness($color) > 40%) {
     @return #000;

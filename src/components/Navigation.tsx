@@ -5,17 +5,18 @@ const Navigation = () => {
   return (
     <div className="nav container">
       <div className="nav__login">
-        <div className="nav__login__search">
+        <form className="nav__login__search">
           <div className="nav__login__search__inputbar">
             <i className="fa-solid fa-magnifying-glass nav__login__search__inputbar__icon"></i>
             <input
               type="text"
+              required
               placeholder={"Find Information"}
               className="nav__login__search__inputbar__input"
             />
           </div>
           <button className="nav__login__search__btn">Search</button>
-        </div>
+        </form>
         <div className="nav__login__action">
           <NavLink to="/" className="link">
             About Baby Dairy

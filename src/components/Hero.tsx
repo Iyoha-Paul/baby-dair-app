@@ -8,13 +8,9 @@ const Hero = () => {
       className="hero"
       style={{
         background: `linear-gradient(
-            rgba(34, 34, 34, 0.6),
-            rgba(34, 34, 34, 0.6)
-          ),
-           
-        background-size: cover;`,
-        //       background: `url(${heroImg})   no-repeat center / cover, ;
-        // height: 100vh;`,
+         rgba(0, 0, 0, 0.459),
+          rgba(0, 0, 0, 0.459)
+           ),url(${heroImg})   no-repeat center / cover`,
         backgroundRepeat: "no-repeat",
         height: "64.2rem",
       }}
