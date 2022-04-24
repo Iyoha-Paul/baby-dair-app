@@ -1,10 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import BabyDairyBlogSection from "../components/BabyDairyBlogSection";
 import Hero from "../components/Hero";
 import Navigation from "../components/Navigation";
 import Ourtools from "../components/Ourtools";
 import Pregnancyschedule from "../components/Pregnancyschedule";
 import QandASection from "../components/QandASection";
+import Testimonials from "../components/Testimonials";
+
+import VideosSection from "../components/VideosSection";
 
 import baby1 from "../images/baby1.svg";
 
@@ -38,6 +42,15 @@ const Home = () => {
       </section>
       <section>
         <Ourtools />
+      </section>
+      <section>
+        <VideosSection />
+      </section>
+      <section>
+        <Testimonials />
+      </section>
+      <section>
+        <BabyDairyBlogSection />
       </section>
     </div>
   );
