@@ -3,10 +3,17 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="nav">
+    <div className="nav container">
       <div className="nav__login">
         <div className="nav__login__search">
-          <input type="text" className="nav__login__search__input" />
+          <div className="nav__login__search__inputbar">
+            <i className="fa-solid fa-magnifying-glass nav__login__search__inputbar__icon"></i>
+            <input
+              type="text"
+              placeholder={"Find Information"}
+              className="nav__login__search__inputbar__input"
+            />
+          </div>
           <button className="nav__login__search__btn">Search</button>
         </div>
         <div className="nav__login__action">
@@ -16,7 +23,7 @@ const Navigation = () => {
           <NavLink to="/" className="link">
             Sign in
           </NavLink>
-          <NavLink to="/" className="link">
+          <NavLink to="/" className="link btn">
             Sign up
           </NavLink>
         </div>
