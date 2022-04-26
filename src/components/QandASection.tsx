@@ -4,7 +4,7 @@ import QandASectionCard from "./QandASectionCard";
 
 const QandASection = () => {
   return (
-    <div className="q-and-a">
+    <div className="q-and-a container">
       <h3>Get expert advice and answers</h3>
 
       <QandASectionCard />

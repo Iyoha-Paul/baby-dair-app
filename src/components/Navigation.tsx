@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="nav container">
-      <div className="nav__login">
+    <div className="nav ">
+      <div className="nav--margin"><div className="nav__login container">
         <form className="nav__login__search">
           <div className="nav__login__search__inputbar">
             <i className="fa-solid fa-magnifying-glass nav__login__search__inputbar__icon"></i>
@@ -28,8 +28,8 @@ const Navigation = () => {
             Sign up
           </NavLink>
         </div>
-      </div>
-      <div className="nav__sections">
+      </div></div>
+      <div className="nav__sections container">
         <NavLink to="/" className="link">
           Community
         </NavLink>

@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
 
 $primary-color: #ed6fab;
 $secondary-color: #495057;
 $text-color: #e9ecef;
-$mobile: 144rem;
+$mobile: 1440px;
 @mixin mobile {
   @media (max-width: $mobile) {
     @content;
@@ -21,7 +21,7 @@ $mobile: 144rem;
 html {
   font-size: 62.5%;
   @include mobile {
-    font-size: 40%;
+    // font-size: 40%;
   }
 }
 @mixin transition-ease {
