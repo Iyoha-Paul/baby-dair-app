@@ -398,7 +398,13 @@ h3 {
     @include Flebo-parallel;
     gap: 11rem;
     &__message {
+      // max-width: 58.2rem;
       position: relative;
+      &__msg {
+        font-size: 1.6rem;
+        max-width: 58.2rem;
+        font-weight: 700;
+      }
       &__bg {
         position: absolute;
         top: 50%;
@@ -407,7 +413,7 @@ h3 {
         font-family: "Qwigley";
         color: #ed6fab29;
         // color: #070707;
-        font-size: 17rem;
+        font-size: 12rem;
         letter-spacing: -0.1rem;
         white-space: nowrap;
         transform: translate(50%, -70%);
