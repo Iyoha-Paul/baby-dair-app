@@ -13,12 +13,7 @@ const Testimonialcard = () => {
   return (
     <div className="testimonials__testimonial">
       {testimonials.map((testimonial) => (
-        <div>
-          <img
-            src={testimonial.picture}
-            alt="pregnant woman"
-            className="testimonials__testimonial__img"
-          />
+        <div className="testimonials__testimonial">
           <div className="testimonials__testimonial__message">
             <div className="testimonials__testimonial__message__bg">
               Our Testimonials
@@ -30,6 +25,11 @@ const Testimonialcard = () => {
               {testimonial.author}
             </div>
           </div>
+          <img
+            src={testimonial.picture}
+            alt="pregnant woman"
+            className="testimonials__testimonial__img"
+          />
         </div>
       ))}
     </div>

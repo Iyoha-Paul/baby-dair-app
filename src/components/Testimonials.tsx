@@ -3,7 +3,7 @@ import Testimonialcard from "./Testimonialcard";
 
 const Testimonials = () => {
   return (
-    <div className="testimonials">
+    <div className="testimonials container">
       <button className="testimonials__btn testimonials__btn--right">
         <i className="fa-solid fa-chevron-right"></i>
       </button>
