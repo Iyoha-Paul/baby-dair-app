@@ -118,8 +118,19 @@ const Footer = () => {
           <p>
             {" "}
             Consult with a medical professional if you have health concerns. Use
-            of this site is subject to our <span>Terms of Use</span> and
-            <span> Privacy Policy</span>.
+            of this site is subject to our{" "}
+            <span>
+              <NavLink to="/" className="link">
+                Terms of Use
+              </NavLink>
+            </span>{" "}
+            and
+            <span>
+              <NavLink to="/" className="link">
+                Privacy Policy
+              </NavLink>{" "}
+            </span>
+            .
           </p>
         </div>
       </div>

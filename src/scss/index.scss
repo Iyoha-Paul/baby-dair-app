@@ -525,8 +525,10 @@ h3 {
 .footer {
   border-top: 1px solid rgba(228, 229, 231, 1);
   border-bottom: 1px solid rgba(228, 229, 231, 1);
+
   &__rights {
     margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
     p {
       line-height: 1.2;
       font-size: 1.6rem;
@@ -534,6 +536,14 @@ h3 {
     }
     span {
       color: $primary-color;
+      .link {
+        margin: 0 0.6rem;
+        text-decoration: none;
+        color: $primary-color;
+        &:hover {
+          color: rgba(122, 126, 132, 1);
+        }
+      }
     }
   }
   &__links {
@@ -563,6 +573,9 @@ h3 {
         display: block;
         text-decoration: none;
         color: rgba(122, 126, 132, 1);
+        &:hover {
+          color: $primary-color;
+        }
       }
     }
   }
