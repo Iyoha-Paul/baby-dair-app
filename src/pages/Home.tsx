@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import BabyDairyBlogSection from "../components/BabyDairyBlogSection";
 import BabyDairyPromo from "../components/BabyDairyPromo";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navigation from "../components/Navigation";
 import Ourtools from "../components/Ourtools";
@@ -61,6 +62,9 @@ const Home = () => {
       </section>
       <section>
         <BabyDairyPromo />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );

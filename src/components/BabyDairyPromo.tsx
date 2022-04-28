@@ -33,19 +33,11 @@ const BabyDairyPromo = () => {
             </div>
           </div>
           <div className="bdp__promo__container__pictures">
-            <div className="bdp__promo__container__pictures__picture">
-              <img
-                src={phoneDark}
-                alt="pregnancy schedule"
-                className="bdp__promo__container__pictures__picture--left"
-              />
+            <div className="bdp__promo__container__pictures__picture bdp__promo__container__pictures__picture--left">
+              <img src={phoneDark} alt="pregnancy schedule" className=" " />
             </div>
-            <div className="bdp__promo__container__pictures__picture">
-              <img
-                src={phoneLight}
-                alt="pregnancy schedule"
-                className="bdp__promo__container__pictures__picture--right"
-              />
+            <div className="bdp__promo__container__pictures__picture bdp__promo__container__pictures__picture--right">
+              <img src={phoneLight} alt="pregnancy schedule" className=" " />
             </div>
           </div>
         </div>
