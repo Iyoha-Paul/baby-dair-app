@@ -25,17 +25,17 @@ const QandASectionCard = () => {
   return (
     <div className="q-and-a__cards">
       {qAndACList.map((qAndA) => (
-        <div className="q-and-a__cards__card"
-        style={{
-          background: `linear-gradient(
+        <div
+          className="q-and-a__cards__card"
+          style={{
+            background: `linear-gradient(
            rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.3)
              ),url(${qAndA.picture})   no-repeat center / cover`,
-          backgroundRepeat: "no-repeat",
-          height: "38rem",
-        }}
+            backgroundRepeat: "no-repeat",
+            height: "38rem",
+          }}
         >
-          
           <div className="q-and-a__cards__card__question">{qAndA.question}</div>
         </div>
       ))}

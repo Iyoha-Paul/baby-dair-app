@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import BabyDairyBlogSection from "../components/BabyDairyBlogSection";
+import BabyDairyPromo from "../components/BabyDairyPromo";
 import Hero from "../components/Hero";
 import Navigation from "../components/Navigation";
 import Ourtools from "../components/Ourtools";
@@ -42,17 +43,24 @@ const Home = () => {
       <section>
         <QandASection />
       </section>
+
       <section>
         <Ourtools />
       </section>
+
       <section>
         <VideosSection />
       </section>
+
       <section>
         <Testimonials />
       </section>
+
       <section>
         <BabyDairyBlogSection />
+      </section>
+      <section>
+        <BabyDairyPromo />
       </section>
     </div>
   );
