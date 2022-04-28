@@ -109,6 +109,19 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="footer__rights">
+          {" "}
+          <p>
+            All rights reserved. Baby Diary is designed for educational purposes
+            only.
+          </p>
+          <p>
+            {" "}
+            Consult with a medical professional if you have health concerns. Use
+            of this site is subject to our <span>Terms of Use</span> and
+            <span> Privacy Policy</span>.
+          </p>
+        </div>
       </div>
     </footer>
   );
