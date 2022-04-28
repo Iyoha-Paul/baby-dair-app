@@ -7,72 +7,105 @@ const Footer = () => {
       <div className="container">
         <div className="footer__links">
           <div className="footer__links__left">
-            <div>
-              <h5>About</h5>
-              <div className="footer__links__left--left">
-                <NavLink to="/" className="link">
-                  Careers
-                </NavLink>
-                <NavLink to="/" className="link">
-                  Press &amp; News
-                </NavLink>
-                <NavLink to="/" className="link">
-                  Privacy Policy
-                </NavLink>
-              </div>
-            </div>
-            <div className="footer__links__left--right">
-              <NavLink to="/" className="link">
-                Terms of Service
-              </NavLink>
-              <NavLink to="/" className="link">
-                Intellectual Property Claims
-              </NavLink>
+            <h5>About</h5>
+            <div className="footer__links__sublist">
+              <ul className="column">
+                <li>
+                  <NavLink to="/" className="link">
+                    Careers
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="link">
+                    Press &amp; News
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="link">
+                    Privacy Policy
+                  </NavLink>
+                </li>
+              </ul>
+
+              <ul className="column">
+                <li>
+                  <NavLink to="/" className="link">
+                    Terms of Service
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="link">
+                    Intellectual Property Claims
+                  </NavLink>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="footer__links__center">
-            <div>
-              <h5>Support</h5>
-              <div className="footer__links__center--left">
-                <NavLink to="/" className="link">
-                  FAQ
-                </NavLink>
-                <NavLink to="/" className="link">
-                  Help &amp; Support
-                </NavLink>
-              </div>
-            </div>
-            <div className="footer__links__center--right">
-              <NavLink to="/" className="link">
-                Trust &amp; Safety
-              </NavLink>
-              <NavLink to="/" className="link">
-                Contact us
-              </NavLink>
+            <h5>Support</h5>
+            <div className="footer__links__sublist">
+              <ul className="column">
+                <li>
+                  <NavLink to="/" className="link">
+                    FAQ
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="link">
+                    Help &amp; Support
+                  </NavLink>
+                </li>
+              </ul>
+
+              <ul className="column">
+                <li>
+                  <NavLink to="/" className="link">
+                    Trust &amp; Safety
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="link">
+                    Contact us
+                  </NavLink>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="footer__links__right">
-            <div>
-              <h5>Community</h5>
-              <div className="footer__links__right--left">
-                <NavLink to="/" className="link">
-                  Blog
-                </NavLink>
-                <NavLink to="/" className="link">
-                  Forum
-                </NavLink>
-                <NavLink to="/" className="link">
-                  Podcast
-                </NavLink>
-              </div>
-            </div>
-            <div className="footer__links__right--right">
-              <NavLink to="/" className="link">
-                Affiliates
-              </NavLink>
-              <NavLink to="/" className="link">
-                Invite a friend
-              </NavLink>
+            <h5>Community</h5>
+            <div className="footer__links__sublist">
+              <ul className="column">
+                <li>
+                  <NavLink to="/" className="link">
+                    Blog
+                  </NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink to="/" className="link">
+                    Forum
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="link">
+                    Podcast
+                  </NavLink>
+                </li>
+              </ul>
+
+              <ul className="column">
+                <li>
+                  <NavLink to="/" className="link">
+                    Affiliates
+                  </NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink to="/" className="link">
+                    Invite a friend
+                  </NavLink>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -526,18 +526,31 @@ h3 {
   border-top: 1px solid rgba(228, 229, 231, 1);
   &__links {
     margin-top: 4.8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24rem;
+    display: flex;
+    justify-content: space-between;
     font-size: 1.6rem;
+
     &__left,
     &__center,
     &__right {
       display: flex;
-      gap: 2rem;
-      h5 {
+      flex-direction: column;
+      gap: 1rem;
+      .footer__links__sublist {
+        display: flex;
+        flex-direction: row;
+        gap: 2.8rem;
+      }
+      .column {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
       }
       .link {
+        display: block;
+        text-decoration: none;
+        color: rgba(122, 126, 132, 1);
       }
     }
   }
