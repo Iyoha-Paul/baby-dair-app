@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/baby-dair-app/static/css/main.94a37288.css",
+    "main.js": "/baby-dair-app/static/js/main.e51504da.js",
+    "static/media/heroImg.svg": "/baby-dair-app/static/media/heroImg.2c14d82d431c8ddea90d9307092cced3.svg",
+    "static/media/q1.svg": "/baby-dair-app/static/media/q1.867725ad99312acee72443bda4005e27.svg",
+    "static/media/testimonialPic1.svg": "/baby-dair-app/static/media/testimonialPic1.d82e26d9f29fa5bdd3b843fc19e074dd.svg",
+    "static/media/pregnantWoman2.svg": "/baby-dair-app/static/media/pregnantWoman2.284c9428cf3bb5ee86ae77e1cc51ca69.svg",
+    "static/media/pregnantWoman3.svg": "/baby-dair-app/static/media/pregnantWoman3.f1e492e445707c77df4897a7c1c4756f.svg",
+    "static/media/phoneDark.svg": "/baby-dair-app/static/media/phoneDark.e502b939e25e763a9744f43a60e733c6.svg",
+    "static/media/q4.svg": "/baby-dair-app/static/media/q4.e66cfe26d5717b6aa3ab13141be002f1.svg",
+    "static/media/pregnantWoman4.svg": "/baby-dair-app/static/media/pregnantWoman4.09c64a0800412751f7e5ca290fb26aec.svg",
+    "static/media/baby1.svg": "/baby-dair-app/static/media/baby1.11402d8a341762042b1422c867d4f487.svg",
+    "static/media/q2.svg": "/baby-dair-app/static/media/q2.6915a0d5d8d6d048a56a54fdd8018056.svg",
+    "static/media/pregnantWoman1.svg": "/baby-dair-app/static/media/pregnantWoman1.d348d786563146e1f6c99e9c07282d04.svg",
+    "static/media/phoneLight.svg": "/baby-dair-app/static/media/phoneLight.b3e4a7194f65e83a87a751443b929fe3.svg",
+    "static/media/q3.svg": "/baby-dair-app/static/media/q3.6442547be3047164d719374006fd9898.svg",
+    "static/media/pregnancySchedule.svg": "/baby-dair-app/static/media/pregnancySchedule.ba3773ba45728015333761f54d9be4bf.svg",
+    "static/media/Babydairy.svg": "/baby-dair-app/static/media/Babydairy.029ebba1a35c3b495ec4cada930f7319.svg",
+    "static/media/NameDark.svg": "/baby-dair-app/static/media/NameDark.869591457ae377e2b901f9e87c6c37f0.svg",
+    "static/media/appStore.svg": "/baby-dair-app/static/media/appStore.ebd15fb5df1c39daac8a55c7243cd64f.svg",
+    "static/media/playStore.svg": "/baby-dair-app/static/media/playStore.853a716cb51bc2a31f63747431da67bb.svg",
+    "static/media/BDlogo.svg": "/baby-dair-app/static/media/BDlogo.4387f030a9da3a9a4d45655d15d02344.svg",
+    "static/media/LogoDark.svg": "/baby-dair-app/static/media/LogoDark.8a4a9c9287a58fda320f64337f02500f.svg",
+    "static/media/chart.svg": "/baby-dair-app/static/media/chart.fb8fb3d540dfb3531aea61e33305486a.svg",
+    "static/media/calender.svg": "/baby-dair-app/static/media/calender.bb3086e105314930ead9474bd0044a12.svg",
+    "static/media/weighScale.svg": "/baby-dair-app/static/media/weighScale.0513e7d543af169ae396d48d5081d29c.svg",
+    "static/media/pictureIcon.svg": "/baby-dair-app/static/media/pictureIcon.4944ecef982e3e16b0cd8206a273b727.svg",
+    "static/media/timerCount.svg": "/baby-dair-app/static/media/timerCount.0896641abf96ac074682546fc5168708.svg",
+    "index.html": "/baby-dair-app/index.html",
+    "main.94a37288.css.map": "/baby-dair-app/static/css/main.94a37288.css.map",
+    "main.e51504da.js.map": "/baby-dair-app/static/js/main.e51504da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94a37288.css",
+    "static/js/main.e51504da.js"
+  ]
+}
