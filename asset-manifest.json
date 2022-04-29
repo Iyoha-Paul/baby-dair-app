@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/baby-dair-app/static/css/main.94a37288.css",
-    "main.js": "/baby-dair-app/static/js/main.e51504da.js",
+    "main.js": "/baby-dair-app/static/js/main.8946132e.js",
     "static/media/heroImg.svg": "/baby-dair-app/static/media/heroImg.2c14d82d431c8ddea90d9307092cced3.svg",
     "static/media/q1.svg": "/baby-dair-app/static/media/q1.867725ad99312acee72443bda4005e27.svg",
     "static/media/testimonialPic1.svg": "/baby-dair-app/static/media/testimonialPic1.d82e26d9f29fa5bdd3b843fc19e074dd.svg",
@@ -29,10 +29,10 @@
     "static/media/timerCount.svg": "/baby-dair-app/static/media/timerCount.0896641abf96ac074682546fc5168708.svg",
     "index.html": "/baby-dair-app/index.html",
     "main.94a37288.css.map": "/baby-dair-app/static/css/main.94a37288.css.map",
-    "main.e51504da.js.map": "/baby-dair-app/static/js/main.e51504da.js.map"
+    "main.8946132e.js.map": "/baby-dair-app/static/js/main.8946132e.js.map"
   },
   "entrypoints": [
     "static/css/main.94a37288.css",
-    "static/js/main.e51504da.js"
+    "static/js/main.8946132e.js"
   ]
 }
