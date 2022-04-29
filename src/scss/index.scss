@@ -524,15 +524,18 @@ h3 {
 }
 .footer {
   border-top: 1px solid rgba(228, 229, 231, 1);
-  border-bottom: 1px solid rgba(228, 229, 231, 1);
+  // border-bottom: 1px solid rgba(228, 229, 231, 1);
 
   &__rights {
     margin-top: 2.8rem;
     margin-bottom: 2.8rem;
+    margin-bottom: 4.2rem;
+
     p {
       line-height: 1.2;
       font-size: 1.6rem;
       color: rgba(122, 126, 132, 1);
+      // margin-bottom: 4.2rem;
     }
     span {
       color: $primary-color;
@@ -576,6 +579,47 @@ h3 {
         &:hover {
           color: $primary-color;
         }
+      }
+    }
+  }
+}
+.copyrights {
+  padding-top: 2.8rem;
+  border-top: 1px solid rgba(228, 229, 231, 1);
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__rights {
+      display: flex;
+      &__logo {
+        margin-right: 0.5rem;
+      }
+      p {
+        color: #868686;
+        margin-left: 5rem;
+      }
+    }
+    &__social-media {
+      display: flex;
+
+      color: #7a7e84;
+      gap: 2.6rem;
+      a {
+        text-decoration: none;
+        color: #7a7e84;
+      }
+      .fa-facebook:hover {
+        color: #3b5998;
+      }
+      .fa-twitter:hover {
+        color: #1da1f2;
+      }
+      .fa-instagram:hover {
+        color: #e4405f;
+      }
+      .fa-facebook:hover {
+        color: #3b5998;
       }
     }
   }

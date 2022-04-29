@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="nav ">
+    <div className="nav container">
       <div className="nav--margin"><div className="nav__login container">
         <form className="nav__login__search">
           <div className="nav__login__search__inputbar">

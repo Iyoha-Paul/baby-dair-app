@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import NameDark from "../images/NameDark.svg";
+import LogoDark from "../images/LogoDark.svg";
 
 const Footer = () => {
   return (
@@ -132,6 +134,38 @@ const Footer = () => {
             </span>
             .
           </p>
+        </div>
+      </div>
+      <div className="copyrights">
+        <div className="container copyrights__container">
+          <div className="copyrights__container__rights">
+            <div className="copyrights__container__rights__logo">
+              <img
+                src={LogoDark}
+                alt="logo"
+                className="copyrights__container__rights__logo__img"
+              />
+            </div>
+            <div className="copyrights__container__rights__name">
+              <img
+                src={NameDark}
+                alt="logo"
+                className="copyrights__container__rights__name__img"
+              />
+            </div>
+            <p>© Baby Dairy. 2020</p>
+          </div>
+          <div className="copyrights__container__social-media">
+            <a href="/">
+              <i className=" fa-brands fa-facebook"></i>
+            </a>
+            <a href="/">
+              <i className=" fa-brands fa-twitter"></i>{" "}
+            </a>
+            <a href="/">
+              <i className=" fa-brands fa-instagram"></i>{" "}
+            </a>
+          </div>
         </div>
       </div>
     </footer>
