@@ -409,7 +409,7 @@ h3 {
   }
   &__testimonial {
     @include Flebo-parallel;
-    gap: 11rem;
+    gap: 14rem;
     &__message {
       &__author {
         color: rgba(152, 152, 152, 1);
